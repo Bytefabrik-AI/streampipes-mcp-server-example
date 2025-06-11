@@ -1,0 +1,16 @@
+logging:
+  pattern:
+    console:
+spring:
+  main:
+    banner-mode: off
+application:
+  name: streampipes-mcp-example
+ai:
+  mcp:
+    server:
+      name: bytefabrik-streampipes-mcp-server
+      version: 0.1.0
+      enabled: true
+      stdio: true
+

@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "bytefabrik-streampipes-mcp-server": {
+      "env": {
+        "STREAMPIPES_HOST": "localhost",
+        "STREAMPIPES_PORT": "8082",
+        "STREAMPIPES_USERNAME": "admin@streampipes.apache.org",
+        "STREAMPIPES_API_KEY": "your_api_key_here",
+        "STREAMPIPES_HTTPS_DISABLED": "true"
+      },
+      "command": "java",
+      "args": [
+        "-jar",
+        "path_to/streampipes-mcp-server.jar"
+      ]
+    }
+  }
+}
+
